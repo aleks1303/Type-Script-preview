@@ -20,7 +20,7 @@ bar({id: 12, name: 'bar', firstname: 'djdjdjj'})
 let num:number = 123
 let str:string = 'string'
 let bool: boolean = true
-let obj:{id: number, status:boolean, asd?: string} = {id:123, status:true}
+let obj:{id: number, status:boolean, asd?: string} = {id:123, status:true} /*asd не обов'язкове, тому можна не передавати*/
 let arrStr:string[] = ['Alex', 'Mila', 'Nina', 'Max']
 let arrNum:number[] = [12, 23, 34, 45, 13, 23]
 let arrNum2:Array<number> = [23, 33, 34, 1234, 34, 43]
